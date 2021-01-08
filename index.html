@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text">
+            <button onclick="number1(); enable()">1</button>
+            <button onclick="number2(); enable()">2</button>
+            <button onclick="number3(); enable()">3</button>
+            <button onclick="number4(); enable()">4</button>
+            <button onclick="number5(); enable()">5</button>
+            <button onclick="number6(); enable()">6</button>
+            <button onclick="number7(); enable()">7</button>
+            <button onclick="number8(); enable()">8</button>
+            <button onclick="number9(); enable()">9</button>
+            <button id="disable6" onclick="slash(); disable()">.</button>
+            <button onclick="number0(); enable()">0</button>
+            <button id="disable5" onclick="hesapla();">=</button>
+        </div>
+        <div>
+            <button onclick="empty();">C</button>
+            <button id="disable1" onclick="plus(); disable()">&plus;</button>
+            <button id="disable2" onclick="minus(); disable()">&minus;</button>
+            <button id="disable3" onclick="times(); disable()">&times;</button>
+            <button id="disable4" onclick="div(); disable()">&div;</button>
+        </div>
+    </div>    
+</body>
+</html>
